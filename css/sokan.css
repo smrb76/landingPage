@@ -1,0 +1,236 @@
+@font-face{
+    font-family: 'IranSans';
+    src: url('../fonts/IRANSansWeb\(FaNum\)_Light.woff2') format('woff2');
+
+}
+* {
+    box-sizing: border-box;
+  
+}
+
+i {
+    font-size: 14px;
+}
+.btn-dark{
+    background-color: rgb(73, 40, 40);
+}
+
+
+body {
+    direction: rtl;
+    font-size: 14px;
+    background-color: rgb(247, 245, 245);
+    font-family:  'IranSans';
+}
+
+.second-header {
+    background-color: rgb(73, 40, 40);
+    font-size: 15px;
+}
+
+.btn{
+    border-radius: 0;
+}
+.buttons{
+    float: right;
+}
+
+.course-img {
+    background-image: url(../images/course.jpg);
+    height: auto;
+    width: 100%;
+    margin-top: -16px;
+    background-size: cover;
+}
+
+.course-about {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    padding: 15px;
+    overflow: auto;
+    border-radius: 2px;
+}
+.detailsOfAuthor img {
+    border-radius: 200px;
+    height: 100px;
+    width: 100px;
+    margin: 15px auto;
+}
+
+.det-author {
+    font-size: 15px;
+    color: #666;
+    line-height: 25px;
+    word-break: keep-all;
+}
+
+strong {
+    font-size: 16px;
+}
+
+.nav-tabs {
+    border: none;
+    list-style: none;
+}
+.nav-tabs>li>a{
+    margin-left: auto;
+    padding: 8px 15px;
+}
+.nav{
+    padding-right: 0;
+}
+
+.nav-tabs>li.active>a{
+    border-bottom: 3px solid #321a28;
+}
+.nav-tabs>li>a{
+    border-bottom: 3px solid #ccc;
+}
+ul{
+    margin-top: 0;
+}
+a:hover{
+    text-decoration: none;
+}
+.content{
+    position: relative;
+    box-sizing: border-box;
+    min-height: 1px;
+}
+.course-intro{
+    background-color: #fff;
+}
+.panel-heading
+{
+    padding: 0px 0px;
+}
+.panel-body{
+    padding: 15px;
+    padding-right: 0;
+    margin-top: 15px;    
+    margin-right: 0;
+    line-height: 2rem;
+}
+iframe{
+    /* max-width: 100%; */
+}
+.ads-intro , .course-intro{
+    background-color: #fff;
+    padding: 16px;
+    border: 1px rgb(156, 154, 154);
+    box-shadow: 0 5px 6px -6px #777,  0 -5px 6px -6px #777 , 5px 0 6px -6px #777,-5px 0 6px -6px #777;
+}
+#attention-text>strong{
+    color: #c0392b;
+}
+.user_cm_box>img{
+    float: right;
+    border-radius: 100%;
+}
+.user_cm_box{
+    float: right;
+    font-size: 17px;
+    height: 90px;
+    padding: 25px;
+    min-width: 190px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 1px #888;
+}
+.write-name-main_2{
+    color: #666;
+    margin-top: 8px;
+
+} 
+.side-title{
+    font-weight: bold;
+    color: #333;
+    font-size: 15px;
+    height: 30px;
+    margin-bottom: 24px;
+}
+.blog-list-side{
+    font-size: 12px;
+    margin-left: 0;
+    list-style-type: none;
+    padding-right: 0;
+
+}
+.blog-list-side li h4{
+    margin-right: 50px;
+    color:rgb(121, 121, 121); 
+}
+li>a{
+    color: #333;
+}
+li>img{
+    border-radius: 100%;
+    float: right;
+    /* display: block; */
+}
+li h3{
+    font-size: 14px;
+    color: #333;
+
+}
+li h4{
+    font-size: 13px;
+
+}
+
+#footer-nav-links{
+    font-size: 14px;
+    display: inline;
+    text-align: center;
+}
+
+footer .container-fluid{
+    height: auto;
+    color: #fff;
+    background-color: rgb(73, 40, 40);
+}
+.container-fluid li a{
+    color: #fff;
+}
+#footer-nav-links li{
+    margin: 0 20px;
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+}
+
+.footer-copyright{
+    display: inline;
+    font-size: 12px;
+    text-align: center;
+}
+.footer-copyright>p:first-child{
+    margin-bottom: -1px;  
+}
+.logo{
+    display: inline;
+    text-align: center;
+}
+.logo li{
+    margin: -20px 10px;
+    font-size: 24px;
+}
+#reg:hover{
+    color: #fff;
+}
+.list-unstyled{
+    top: 0;
+    border-width: 0 0 1px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+@media(max-width : 540px){
+    .nav>li>a{	
+        padding: 10px 4px;
+        font-size: 11px;
+    }
+}

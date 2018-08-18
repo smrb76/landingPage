@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>سکان آکادمی</title>
+    <!-- BS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- main CSS -->
+    <link rel="stylesheet" href="css/sokan.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Amiri:400,700&amp;subset=arabic" rel="stylesheet">
+    <!-- custom font -->
+    <link rel="stylesheet" href="/fonts/fonts.css">
+    <style>
+        footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 80px;
+        }
+        .form-control{
+            border-radius: 0px;
+        }
+        .btn-block{
+            background-color: rgb(73, 40, 40);
+        }
+        .btn-block:hover{
+            background-color: black;
+        }
+        .lead{
+            font-size: 13px;
+            text-align: right;
+            margin: 8px 0; 
+        }
+        .sign_box{
+            border: 1px solid rgb(216, 216, 216);
+        }
+        .sign_box_right{
+            padding: 36px 18px; 
+            height: auto;
+        }
+        .social_box{
+            font-size: 14px;
+            cursor: pointer;
+            background-color: #fff;
+            border: 1px solid rgba(199, 195, 195 , 0.8);
+            text-align: right;
+            /* padding-bottom: 10px; */
+            margin: 10px 0;
+        }
+        .sign_box_left{
+            background-color: rgb(236, 235, 235);
+            padding: 26px 18px; 
+            height: 100%;
+            border-right: 1px solid rgb(216, 216, 216);
+
+        }
+        .sign_box_left .fa{
+            font-size: 24px;
+            vertical-align: middle;
+        }
+        .fa-google-plus-square{
+            color: #dd4b39;
+        }
+        .fa-facebook-square{
+            color: #3b5999;
+
+        }
+        .fa-twitter-square{
+            color: #55acee;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="top-header mb-2">
+            <div class="container">
+                <div class="row mt-3 d-flex align-items-center">
+                    <div class="col-sm-3 mr-0">
+                        <div class="buttons">
+                            <button class="btn btn-dark">
+                                ثبت نام
+                            </button>
+                            <button class="btn btn-outline-dark mr-1">
+                                ورود
+                            </button>
+                        </div>
+                    </div>
+                    <!-- end buttons div -->
+                    <div class="col-sm-6 hidden-xs">
+                        <form class="header-search">
+                            <div class="input-group">
+                                <input type="text" placeholder="جستجو" class="form-control">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- !!!!!!!!!!!!!! -->
+                    <div class="col-sm-2 col-md-3 col-xs-5" style="width: 100px;">
+                        <img src="css/logo_Sokan.png" class="img-responsive p-1 mr-0 float-left" alt="sokan_logo">
+                    </div>
+
+
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+
+        </div>
+        <!-- end top-header -->
+            <div class="second-header mt-1 text-center">
+                <ul class="list-unstyled p-1">
+                    <li class="list-inline-item mr-5">
+                        <a href="#" class="text-white">دوره های آموزشی</a>
+                    </li>
+                    <li class="list-inline-item mr-5">
+                        <a href="#" class="text-white">رادیو فول استک</a>
+                    </li>
+                    <li class="list-inline-item mr-5">
+                        <a href="#" class="text-white">تالار گفتگو</a>
+                    </li>
+                    <li class="list-inline-item mr-5">
+                        <a href="#" class="text-white">وبلاگ</a>
+                    </li>
+                    <li class="list-inline-item mr-5">
+                        <a href="#" class="text-white">استخدام برنامه نویس</a>
+                    </li>
+                    <li class="list-inline-item mr-5">
+                        <a href="#" class="text-white">واژه نامه</a>
+                    </li>
+                </ul>
+            </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-6 col-sm-offset-6">
+                    <h5 class="my-5">
+                        ثبت نام
+                    </h5>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-lg-6 col-lg-pull-6">
+                        <div class="sign_box">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="sign_box_right">
+                                        <form action="">
+                                            <div class="form-group">
+                                                    <input class="form-control mb-3" type="text" placeholder="ایمیل">
+                                            </div>
+                                            <div class="form-group">
+                                                    <input  class="form-control" type="password" placeholder=" پسورد">
+                                            </div>
+                                            <div class="submit">
+                                                    <a href="#" class="btn btn-secondary mt-2 btn-block" >ثبت نام</a>
+                                            </div>
+                                            <div class="sharayet">
+                                                    <p class="lead">با ثبت نام، شما با شرایط سایت موافقید. <a href="#" class="text-dark">شرایط</a></p>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- end col-sm-6 -->
+                                <div class="col-sm-6 hidden">
+                                    <div class="sign_box_left">
+                                        <div class="social_box p-2">
+                                            <i class="fa fa-google-plus-square ml-2"></i>
+                                            ثبت نام با اکانت گوگل
+
+                                        </div>
+                                        <div class="social_box p-2">
+                                            <i class="fa fa-facebook-square ml-2"></i>
+                                            ثبت نام با اکانت فیسبوک
+
+                                        </div>
+                                        <div class="social_box p-2">
+                                            <i class="fa fa-twitter-square ml-2"></i>
+                                            ثبت نام با اکانت توییتر
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end row2 -->
+                <div class="row mt-3">
+                    <div class="col-lg-12 text-right">
+                        <p>قبلا ثبت نام کرده اید؟<a href="login.html" class="text-dark p-2">ورود</a></p>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <footer class="index-footer">
+        <div class="container-fluid mt-5">
+                <!-- start row-1 -->
+                <div class="row" id="footer-nav-links">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#">درباره ی ما</a></li>
+                            <li class="list-inline-item"><a href="#">تیم اجرایی</a></li>
+                            <li class="list-inline-item"><a href="#">همکاری با ما</a></li>
+                            <li class="list-inline-item"><a href="#">تبلیغات</a></li>
+                            <li class="list-inline-item"><a href="#"> تماس با ما </a></li>
+                        </ul>
+                </div>
+                <!-- end row-1 -->
+                <!-- start row-copyright -->
+                <div class="row footer-copyright">
+                    <p>&copy;هرگونه کپی‌برداری از محتواهای سکان آکادمی <span class="text-warning">غیرمجاز</span> است!<a href="#" class="text-white">(مشاهده ی قوانین)</a></p>
+                    <p>میزبانی شده روی سرورهای کلود<a href="#" class="text-success"> پارس پک</a></p>
+                </div>
+                <!-- end row-copyrigh -->
+                <!-- start row3 -->
+                <div class="row logo ">
+                    <ul class="list-inline my-0">
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-telegram"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                    </ul>
+                </div>
+        </div>
+    </footer>
+    
+</body>
+    
+    </html>

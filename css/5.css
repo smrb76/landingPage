@@ -1,0 +1,46 @@
+body{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+.carousel{
+    margin-bottom: 4rem;
+}
+
+.carousel-item{
+    background-color: #777;
+    height: 30rem;
+    color: #fff;
+    padding-top: 100px;
+    margin-top: 0;
+}
+
+.marketing .col-lg-4{
+    text-align: center;
+}
+.marketing h2{
+    font-weight: 400;
+}
+.marketing .col-lg-4 p{
+    margin-left: .75rem;
+    margin-right: .75rem;
+}
+.featurette-divider{
+    margin: 5rem 0;
+}
+@media (min-width: 40em){
+ .featurette-heading{
+    font-size: 50px;
+}            
+}
+.featurette-heading{
+    letter-spacing: -.05rem;
+    line-height: 1;
+    font-weight: 300;
+}
+@media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }

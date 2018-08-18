@@ -1,0 +1,64 @@
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+i {
+    color: #666;
+}
+
+a.btn-default {
+    color: #666;
+}
+
+a.btn-default:hover {
+    text-decoration: underline;
+}
+
+.fasele {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.nav {
+    color: #666;
+}
+
+.jumbotron {
+    background-color: #444;
+    color: #fff;
+}
+
+.blog-pagination a {
+    border-radius: 2em;
+}
+
+footer {
+    height: auto;
+    width: auto;
+    background-color: #ddd;
+    border-radius: 3px;
+}
+
+i.fa {
+    font-size: 30px;
+    margin-right: 190px;
+    margin-top: 20px;
+}
+
+.blog-footer {
+    margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+    .blog-footer i {
+        display: none;
+    }
+    .blog-footer i::after {
+        content: "asdsda";
+    }
+}
+
+.list-unstyled {
+    color: #cc1188;
+    font-weight: 500;
+}
